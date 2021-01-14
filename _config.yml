@@ -129,7 +129,7 @@ comments:
   gitalk:
     clientID    : e0c9dbc374347678e4aa # GitHub Application Client ID
     clientSecret: 2fba0d6eeb0b3775212820a3f05c3af90948ed4c  # GitHub Application Client Secret
-    repository  : https://github.com/unicornt/blog-gitalk.git # GitHub repo
+    repository  : blog-gitalk # GitHub repo
     owner       : unicornt # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       - unicornt
