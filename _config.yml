@@ -28,7 +28,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 ## => Language and Timezone
 ##############################
 lang: zh-CN # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
@@ -131,7 +131,8 @@ comments:
     clientSecret: b7d8193471ecbc05f7e96d8528b289c7e3913a9d  # GitHub Application Client Secret
     repository  : git@github.com:unicornt/blog-gitalk.git # GitHub repo
     owner       : unicornt # GitHub repo owner
-    admin: unicornt # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      - unicornt
       # - your GitHub Id
 
   ## Valine
